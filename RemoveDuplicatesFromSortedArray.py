@@ -1,3 +1,8 @@
+# Author: Dorian Knight
+# Date: December 16th 2024
+# Description: Count all unique numbers in a list
+# Rank: Easy
+
 class Solution:
     def removeDuplicates(self, nums: list[int]) -> int:
         compare_num = -101 # Outside of number range according to Leetcode question specs
