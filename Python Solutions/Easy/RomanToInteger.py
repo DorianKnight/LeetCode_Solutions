@@ -1,6 +1,7 @@
 # Author: Dorian Knight
 # Date: December 15th 2024
 # Description: Roman to Integer leetcode python solution
+# Rank: Easy
 
 class Solution:
     def romanToInt(self, s: str) -> int:

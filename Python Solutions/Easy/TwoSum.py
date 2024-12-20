@@ -1,3 +1,8 @@
+# Author: Dorian Knight
+# Date:
+# Description: TwoSum solution
+# Rank: Easy
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         #Iterate through every single combination of numbers to see which one equates to the target
