@@ -1,6 +1,7 @@
 # Author: Dorian Knight
 # Date: December 16th 2024
 # Description: Find the longest common prefix in a list of strings
+# Rank: Easy
 
 class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
