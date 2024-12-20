@@ -1,7 +1,7 @@
 # Author: Dorian Knight
 # Date: December 20th 2024
 # Description: Remove duplicates from sorted array 2 python solution
-# Rank: Easy
+# Rank: Medium
 
 class Solution:
     def removeDuplicates(self, nums: list[int]) -> int:
