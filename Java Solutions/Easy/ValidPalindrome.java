@@ -6,7 +6,7 @@
 import java.util.regex.Pattern;
 
 class Solution {
-    public String isPalindrome(String s) {
+    public boolean isPalindrome(String s) {
         String lowerCaseS = s.toLowerCase();  // Convert to lower case
 
         // Reverse the string and remove punctuation from input string
@@ -42,7 +42,7 @@ public class ValidPalindrome {
     public static void main(String[] args) {
         String input_string = "racecar";
         Solution answerClass = new Solution();
-        String answer = answerClass.isPalindrome(input_string);
+        boolean answer = answerClass.isPalindrome(input_string);
         System.out.println("Input: " + input_string + "\nPalindrome?: " + answer);
     }
 }
