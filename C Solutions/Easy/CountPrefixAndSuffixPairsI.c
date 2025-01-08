@@ -39,17 +39,12 @@ int countPrefixSuffixPairs(char** words, int wordsSize) {
             // Check if template is larger than candidate
             preSuffCandidateSize = (int)(preSuffCandidateNull-preSuffCandidate);
             templateSize = (int)(templateNull - template);
-            printf("Candidate size %d\n", preSuffCandidateSize);
-            printf("Template size %d\n", templateSize);
             if (templateSize >= preSuffCandidateSize) {
                 // Check if the preSuffCandidate is a prefix and a suffix for the template
                 isPrefix = true; // Prove
                 isSuffix = true; // Prove
                 for (int k=0; k<(preSuffCandidateNull-preSuffCandidate); k++) {
                     // Check prefix
-                    printf("Value of k: %d\n", k);
-                    printf("PREFIX || Character1: %c, Character2: %c\n", *(preSuffCandidate+k), *(template+k));
-                    printf("SUFFIX || Character1: %c, Character2: %c\n", *(preSuffCandidateNull-1-k), *(templateNull-1-k));
                     if (*(preSuffCandidate+k) != *(template+k)) {
                         isPrefix = false;
                     }
